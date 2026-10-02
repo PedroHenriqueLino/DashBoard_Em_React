@@ -1,0 +1,566 @@
+.home-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+    background: rgba(11, 14, 21, 0.70);
+
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+/*home title*/
+.home-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #9ca3af;
+}
+
+.home-title h1 {
+    font-weight: 200;
+    color: white;
+}
+
+/*home title a cima*/
+
+/*.month-selector */
+.month-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.month-selector label {
+    color: #8b95a7;
+    font-size: 12px;
+}
+
+.month-selector select {
+    min-width: 150px;
+
+    padding: 10px 12px;
+
+    background: #171a21;
+    color: white;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.month-selector select:hover {
+    border-color: #03e0fa;
+}
+
+.month-selector select:focus {
+    border-color: #03e0fa;
+
+    box-shadow:
+        0 0 8px rgba(3, 224, 250, 0.2);
+}
+
+.month-selector option {
+    background: #171a21;
+    color: white;
+}
+
+/*.month-selector a cima*/
+
+
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+/*stat card*/
+.stat-card {
+    width: 100%;
+    max-width: 450px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: #171a21;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+
+
+    animation: neonPulse 2s ease-in-out infinite;
+    transition:
+        border-color 1s ease,
+        box-shadow 1s ease,
+        background 1s ease,
+        transform 0.3s ease;
+}
+
+.stat-card:hover {
+    border-color: #03e0fa;
+
+    background: #1a1e26;
+
+    box-shadow:
+        0 0 10px rgba(3, 224, 250, 0.4),
+        0 0 25px rgba(3, 224, 250, 0.2),
+        inset 0 0 12px rgba(3, 224, 250, 0.08);
+    transform: scale(1.01);
+
+}
+
+.stat-card .card-icon {
+    background: #152f40;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+.stat-card .card-icon svg {
+    width: 40px;
+    height: 40px;
+    color: #03e0fa;
+
+    filter:
+        drop-shadow(0 0 4px #03e0fa) drop-shadow(0 0 8px rgba(3, 224, 250, 0.1));
+}
+
+/*stat card a cima*/
+
+/*charts-row*/
+.charts-row {
+    grid-column: 1 / -1;
+
+    display: flex;
+
+    gap: 25px;
+
+    width: 100%;
+}
+
+.saleschart-card {
+    width: 60%;
+    height: 400px;
+    background: #171a21;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    box-sizing: border-box;
+
+    animation: neonPulse 2s ease-in-out infinite;
+    transition:
+        border-color 1s ease,
+        box-shadow 1s ease,
+        background 1s ease,
+        transform 0.3s ease;
+
+}
+
+.saleschart-card:hover {
+    border-color: #03e0fa;
+
+    background: #1a1e26;
+
+    box-shadow:
+        0 0 10px rgba(3, 224, 250, 0.4),
+        0 0 25px rgba(3, 224, 250, 0.2),
+        inset 0 0 12px rgba(3, 224, 250, 0.08);
+    transform: scale(1.01);
+}
+
+.salescategory-card {
+    width: 40%;
+    height: 400px;
+    background: #171a21;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+
+    animation: neonPulse 2s ease-in-out infinite;
+    animation: neonPulse 2s ease-in-out infinite;
+
+    transition:
+        border-color 1s ease,
+        box-shadow 1s ease,
+        background 1s ease,
+        transform 0.3s ease;
+}
+
+.salescategory-card:hover {
+    border-color: #03e0fa;
+    background: #1a1e26;
+    box-shadow:
+        0 0 10px rgba(3, 224, 250, 0.4),
+        0 0 25px rgba(3, 224, 250, 0.2),
+        inset 0 0 12px rgba(3, 224, 250, 0.08);
+
+    transform: scale(1.01);
+}
+
+/*charts-row a cima*/
+
+/*product row*/
+.products-row {
+    grid-column: 1 / -1;
+
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+
+.products-card {
+    width: 50%;
+    height: 320px;
+    border-radius: 15px;
+    background: #1a1e26;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    animation: neonPulse 2s ease-in-out infinite;
+    transition:
+        border-color 1s ease,
+        box-shadow 1s ease,
+        background 1s ease,
+        transform 0.3s ease;
+}
+
+.products-card:hover {
+    border-color: #03e0fa;
+
+    background: #1a1e26;
+
+    box-shadow:
+        0 0 10px rgba(3, 224, 250, 0.4),
+        0 0 25px rgba(3, 224, 250, 0.2),
+        inset 0 0 12px rgba(3, 224, 250, 0.08);
+    transform: scale(1.01);
+}
+
+/*product row a cima*/
+
+@media (max-width: 884px) {
+
+    .home-content {
+        height: 100vh;
+    }
+
+    .home-title {
+        padding: 15px;
+    }
+
+    .home-title h1 {
+        font-size: 22px;
+    }
+
+    .dashboard-cards {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .stat-card {
+        max-width: none;
+        height: 75px;
+        gap: 12px;
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    .stat-card .card-icon {
+        padding: 7px;
+        border-radius: 12px;
+    }
+
+    .stat-card .card-icon svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .stat-card .card-info {
+        font-size: .8rem;
+    }
+
+    /*charts-row*/
+    .charts-row {
+        grid-column: 1 / -1;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        width: 100%;
+    }
+
+    .saleschart-card {
+        width: 100%;
+        height: 350px;
+    }
+
+
+
+    .salescategory-card {
+        width: 100%;
+        height: 350px;
+    }
+
+    /*charts-row a cima*/
+
+
+    /*product-row */
+    .products-row {
+        gap: 10px;
+    }
+
+    .products-card {
+        height: auto;
+    }
+
+    /*product-row a cima*/
+}
+
+@media (max-width: 440px) {
+
+    .home-content {
+        height: 100vh;
+    }
+
+    .home-title {
+        padding: 12px;
+    }
+
+    .home-title h1 {
+        font-size: 20px;
+    }
+
+    .home-title p {
+        font-size: 10px;
+    }
+
+    .dashboard-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .stat-card {
+        max-width: none;
+        height: 65px;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .stat-card .card-icon {
+        padding: 6px;
+        border-radius: 10px;
+    }
+
+    .stat-card .card-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .stat-card .card-info {
+        font-size: 0.75rem;
+    }
+
+    /*.salescategory-card*/
+    .salescategory-card {
+        width: 100%;
+        height: auto;
+    }
+
+    /*.salescategory-card a cima*/
+
+    /*product-row*/
+
+
+    .products-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .products-card {
+        width: 100%;
+        height: auto;
+    }
+
+    /*product-row a cima*/
+}
+
+/* =====================================================
+   TEMA CLARO
+===================================================== */
+
+.home-content.light-theme {
+    background: #f8fafc;
+    color: #1e293b;
+
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+
+    border-top: 1px solid #e2e8f0;
+}
+
+
+/* =====================================================
+   HOME TITLE
+===================================================== */
+
+.home-content.light-theme .home-title {
+    color: #64748b;
+}
+
+.home-content.light-theme .home-title h1 {
+    color: #0f172a;
+}
+
+
+/* =====================================================
+   MONTH SELECTOR
+===================================================== */
+
+.home-content.light-theme .month-selector label {
+    color: #64748b;
+}
+
+.home-content.light-theme .month-selector select {
+    min-width: 150px;
+
+    background: #ffffff;
+    color: #1e293b;
+
+    border: 1px solid #cbd5e1;
+
+    box-shadow:
+        0 2px 5px rgba(15, 23, 42, 0.04);
+}
+
+.home-content.light-theme .month-selector select:hover {
+    border-color: #06b6d4;
+}
+
+.home-content.light-theme .month-selector select:focus {
+    border-color: #06b6d4;
+
+    box-shadow:
+        0 0 0 3px rgba(6, 182, 212, 0.10);
+}
+
+.home-content.light-theme .month-selector option {
+    background: #ffffff;
+    color: #1e293b;
+}
+
+
+/* =====================================================
+   STAT CARDS
+===================================================== */
+
+.home-content.light-theme .stat-card {
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 3px 10px rgba(15, 23, 42, 0.05);
+
+    animation: none;
+}
+
+.home-content.light-theme .stat-card:hover {
+    background: #ffffff;
+
+    border-color: #67e8f9;
+
+    box-shadow:
+        0 8px 20px rgba(15, 23, 42, 0.08);
+
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   ÍCONE DOS STAT CARDS
+===================================================== */
+
+.home-content.light-theme .stat-card .card-icon {
+    background: #ecfeff;
+}
+
+.home-content.light-theme .stat-card .card-icon svg {
+    color: #0891b2;
+
+    filter: none;
+}
+
+
+/* =====================================================
+   GRÁFICOS
+===================================================== */
+
+.home-content.light-theme .saleschart-card,
+.home-content.light-theme .salescategory-card {
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 3px 10px rgba(15, 23, 42, 0.05);
+
+    animation: none;
+}
+
+.home-content.light-theme .saleschart-card:hover,
+.home-content.light-theme .salescategory-card:hover {
+    background: #ffffff;
+
+    border-color: #67e8f9;
+
+    box-shadow:
+        0 8px 20px rgba(15, 23, 42, 0.08);
+
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   PRODUCTS
+===================================================== */
+
+.home-content.light-theme .products-card {
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 3px 10px rgba(15, 23, 42, 0.05);
+
+    animation: none;
+}
+
+.home-content.light-theme .products-card:hover {
+    background: #ffffff;
+
+    border-color: #67e8f9;
+
+    box-shadow:
+        0 8px 20px rgba(15, 23, 42, 0.08);
+
+    transform: translateY(-2px);
+}

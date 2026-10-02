@@ -1,0 +1,74 @@
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+
+
+
+  background-image: url('./assets/dashboard-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.navbar-wrapper {
+  width: 250px;
+  min-height: 100vh;
+  flex-shrink: 0;
+  overflow: hidden;
+  animation: navbarEnter 0.4s ease-out;
+}
+
+.navbar-wrapper.hidden {
+  animation: navbarExit 0.4s ease-in forwards;
+}
+
+.dashboard-main {
+  flex: 1;
+  min-width: 0;
+  min-height: 100vh;
+}
+
+
+.header {
+  height: 70px;
+}
+
+/*animação nav bar*/
+.navbar-wrapper {
+  width: 250px;
+  flex-shrink: 0;
+  overflow: hidden;
+  animation: navbarEnter 0.4s ease-out;
+}
+
+.navbar-wrapper.hidden {
+  animation: navbarExit 0.4s ease-in forwards;
+}
+
+@keyframes navbarEnter {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+
+  to {
+    width: 250px;
+    opacity: 1;
+  }
+}
+
+@keyframes navbarExit {
+  from {
+    width: 250px;
+    opacity: 1;
+  }
+
+  to {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+/*animação nav bar A CIMA*/

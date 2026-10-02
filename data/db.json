@@ -1,0 +1,2012 @@
+{
+  "vendas": [
+    {
+      "id": 1,
+      "mes": "Janeiro",
+      "vendas": 128,
+      "faturamento": 18450.9
+    },
+    {
+      "id": 2,
+      "mes": "Fevereiro",
+      "vendas": 145,
+      "faturamento": 21380.5
+    },
+    {
+      "id": 3,
+      "mes": "Março",
+      "vendas": 162,
+      "faturamento": 24750.8
+    },
+    {
+      "id": 4,
+      "mes": "Abril",
+      "vendas": 151,
+      "faturamento": 22980.4
+    },
+    {
+      "id": 5,
+      "mes": "Maio",
+      "vendas": 178,
+      "faturamento": 26890.7
+    },
+    {
+      "id": 6,
+      "mes": "Junho",
+      "vendas": 193,
+      "faturamento": 29450.2
+    },
+    {
+      "id": 7,
+      "mes": "Julho",
+      "vendas": 215,
+      "faturamento": 32780.6
+    },
+    {
+      "id": 8,
+      "mes": "Agosto",
+      "vendas": 231,
+      "faturamento": 35120.9
+    },
+    {
+      "id": 9,
+      "mes": "Setembro",
+      "vendas": 248,
+      "faturamento": 37980.3
+    },
+    {
+      "id": 10,
+      "mes": "Outubro",
+      "vendas": 267,
+      "faturamento": 41250.8
+    },
+    {
+      "id": 11,
+      "mes": "Novembro",
+      "vendas": 294,
+      "faturamento": 45890.4
+    },
+    {
+      "id": 12,
+      "mes": "Dezembro",
+      "vendas": 321,
+      "faturamento": 50240.7
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Eletrônicos",
+      "vendas": 892,
+      "faturamento": 136220.93,
+      "vendasMensais": {
+        "Janeiro": {
+          "vendas": 44,
+          "faturamento": 6273.31
+        },
+        "Fevereiro": {
+          "vendas": 48,
+          "faturamento": 7055.58
+        },
+        "Março": {
+          "vendas": 58,
+          "faturamento": 8910.29
+        },
+        "Abril": {
+          "vendas": 48,
+          "faturamento": 7353.73
+        },
+        "Maio": {
+          "vendas": 62,
+          "faturamento": 9411.74
+        },
+        "Junho": {
+          "vendas": 66,
+          "faturamento": 10013.07
+        },
+        "Julho": {
+          "vendas": 80,
+          "faturamento": 12128.83
+        },
+        "Agosto": {
+          "vendas": 83,
+          "faturamento": 12643.52
+        },
+        "Setembro": {
+          "vendas": 87,
+          "faturamento": 13293.1
+        },
+        "Outubro": {
+          "vendas": 88,
+          "faturamento": 13612.77
+        },
+        "Novembro": {
+          "vendas": 112,
+          "faturamento": 17438.34
+        },
+        "Dezembro": {
+          "vendas": 116,
+          "faturamento": 18086.65
+        }
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Informática",
+      "vendas": 653,
+      "faturamento": 99853.14,
+      "vendasMensais": {
+        "Janeiro": {
+          "vendas": 33,
+          "faturamento": 4797.23
+        },
+        "Fevereiro": {
+          "vendas": 39,
+          "faturamento": 5772.73
+        },
+        "Março": {
+          "vendas": 39,
+          "faturamento": 5940.19
+        },
+        "Abril": {
+          "vendas": 42,
+          "faturamento": 6434.51
+        },
+        "Maio": {
+          "vendas": 44,
+          "faturamento": 6722.68
+        },
+        "Junho": {
+          "vendas": 50,
+          "faturamento": 7657.05
+        },
+        "Julho": {
+          "vendas": 52,
+          "faturamento": 7867.34
+        },
+        "Agosto": {
+          "vendas": 58,
+          "faturamento": 8780.23
+        },
+        "Setembro": {
+          "vendas": 67,
+          "faturamento": 10254.68
+        },
+        "Outubro": {
+          "vendas": 75,
+          "faturamento": 11550.22
+        },
+        "Novembro": {
+          "vendas": 71,
+          "faturamento": 11013.7
+        },
+        "Dezembro": {
+          "vendas": 83,
+          "faturamento": 13062.58
+        }
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Celulares",
+      "vendas": 503,
+      "faturamento": 76734.12,
+      "vendasMensais": {
+        "Janeiro": {
+          "vendas": 26,
+          "faturamento": 3690.18
+        },
+        "Fevereiro": {
+          "vendas": 30,
+          "faturamento": 4489.9
+        },
+        "Março": {
+          "vendas": 31,
+          "faturamento": 4702.65
+        },
+        "Abril": {
+          "vendas": 32,
+          "faturamento": 4825.88
+        },
+        "Maio": {
+          "vendas": 36,
+          "faturamento": 5378.14
+        },
+        "Junho": {
+          "vendas": 41,
+          "faturamento": 6184.54
+        },
+        "Julho": {
+          "vendas": 43,
+          "faturamento": 6556.12
+        },
+        "Agosto": {
+          "vendas": 44,
+          "faturamento": 6672.97
+        },
+        "Setembro": {
+          "vendas": 47,
+          "faturamento": 7216.26
+        },
+        "Outubro": {
+          "vendas": 53,
+          "faturamento": 8250.16
+        },
+        "Novembro": {
+          "vendas": 56,
+          "faturamento": 8719.18
+        },
+        "Dezembro": {
+          "vendas": 64,
+          "faturamento": 10048.14
+        }
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Games",
+      "vendas": 260,
+      "faturamento": 39768.86,
+      "vendasMensais": {
+        "Janeiro": {
+          "vendas": 14,
+          "faturamento": 2029.6
+        },
+        "Fevereiro": {
+          "vendas": 15,
+          "faturamento": 2138.05
+        },
+        "Março": {
+          "vendas": 18,
+          "faturamento": 2722.59
+        },
+        "Abril": {
+          "vendas": 15,
+          "faturamento": 2298.04
+        },
+        "Maio": {
+          "vendas": 20,
+          "faturamento": 2957.98
+        },
+        "Junho": {
+          "vendas": 19,
+          "faturamento": 2945.02
+        },
+        "Julho": {
+          "vendas": 21,
+          "faturamento": 3278.06
+        },
+        "Agosto": {
+          "vendas": 25,
+          "faturamento": 3863.3
+        },
+        "Setembro": {
+          "vendas": 25,
+          "faturamento": 3798.03
+        },
+        "Outubro": {
+          "vendas": 27,
+          "faturamento": 4125.08
+        },
+        "Novembro": {
+          "vendas": 29,
+          "faturamento": 4589.04
+        },
+        "Dezembro": {
+          "vendas": 32,
+          "faturamento": 5024.07
+        }
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Acessórios",
+      "vendas": 225,
+      "faturamento": 34590.15,
+      "vendasMensais": {
+        "Janeiro": {
+          "vendas": 11,
+          "faturamento": 1660.58
+        },
+        "Fevereiro": {
+          "vendas": 13,
+          "faturamento": 1924.24
+        },
+        "Março": {
+          "vendas": 16,
+          "faturamento": 2475.08
+        },
+        "Abril": {
+          "vendas": 14,
+          "faturamento": 2068.24
+        },
+        "Maio": {
+          "vendas": 16,
+          "faturamento": 2420.16
+        },
+        "Junho": {
+          "vendas": 17,
+          "faturamento": 2650.52
+        },
+        "Julho": {
+          "vendas": 19,
+          "faturamento": 2950.25
+        },
+        "Agosto": {
+          "vendas": 21,
+          "faturamento": 3160.88
+        },
+        "Setembro": {
+          "vendas": 22,
+          "faturamento": 3418.23
+        },
+        "Outubro": {
+          "vendas": 24,
+          "faturamento": 3712.57
+        },
+        "Novembro": {
+          "vendas": 26,
+          "faturamento": 4130.14
+        },
+        "Dezembro": {
+          "vendas": 26,
+          "faturamento": 4019.26
+        }
+      }
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Headset Gamer HyperSound Pro",
+      "categoria": "Games",
+      "preco": 189.9,
+      "vendidos": 254,
+      "estoque": 18,
+      "vendasMensais": {
+        "Janeiro": 14,
+        "Fevereiro": 14,
+        "Março": 16,
+        "Abril": 16,
+        "Maio": 17,
+        "Junho": 19,
+        "Julho": 23,
+        "Agosto": 23,
+        "Setembro": 24,
+        "Outubro": 28,
+        "Novembro": 30,
+        "Dezembro": 30
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Teclado Mecânico RGB Thunder K87",
+      "categoria": "Informática",
+      "preco": 249.9,
+      "vendidos": 226,
+      "estoque": 24,
+      "vendasMensais": {
+        "Janeiro": 11,
+        "Fevereiro": 13,
+        "Março": 15,
+        "Abril": 13,
+        "Maio": 17,
+        "Junho": 17,
+        "Julho": 20,
+        "Agosto": 19,
+        "Setembro": 24,
+        "Outubro": 22,
+        "Novembro": 28,
+        "Dezembro": 27
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Mouse Gamer Phantom 8000 DPI",
+      "categoria": "Games",
+      "preco": 129.9,
+      "vendidos": 209,
+      "estoque": 31,
+      "vendasMensais": {
+        "Janeiro": 10,
+        "Fevereiro": 13,
+        "Março": 13,
+        "Abril": 12,
+        "Maio": 16,
+        "Junho": 15,
+        "Julho": 18,
+        "Agosto": 20,
+        "Setembro": 19,
+        "Outubro": 23,
+        "Novembro": 24,
+        "Dezembro": 26
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Monitor UltraView 24 Full HD",
+      "categoria": "Informática",
+      "preco": 899.9,
+      "vendidos": 184,
+      "estoque": 12,
+      "vendasMensais": {
+        "Janeiro": 9,
+        "Fevereiro": 10,
+        "Março": 13,
+        "Abril": 12,
+        "Maio": 13,
+        "Junho": 13,
+        "Julho": 15,
+        "Agosto": 18,
+        "Setembro": 19,
+        "Outubro": 19,
+        "Novembro": 20,
+        "Dezembro": 23
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Smartphone Galaxy A56",
+      "categoria": "Celulares",
+      "preco": 2199.9,
+      "vendidos": 163,
+      "estoque": 9,
+      "vendasMensais": {
+        "Janeiro": 8,
+        "Fevereiro": 9,
+        "Março": 10,
+        "Abril": 9,
+        "Maio": 11,
+        "Junho": 12,
+        "Julho": 13,
+        "Agosto": 15,
+        "Setembro": 16,
+        "Outubro": 18,
+        "Novembro": 20,
+        "Dezembro": 22
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Smartphone Pixel Pro 9",
+      "categoria": "Celulares",
+      "preco": 3299.9,
+      "vendidos": 149,
+      "estoque": 7,
+      "vendasMensais": {
+        "Janeiro": 8,
+        "Fevereiro": 9,
+        "Março": 10,
+        "Abril": 9,
+        "Maio": 10,
+        "Junho": 11,
+        "Julho": 11,
+        "Agosto": 13,
+        "Setembro": 14,
+        "Outubro": 16,
+        "Novembro": 18,
+        "Dezembro": 20
+      }
+    },
+    {
+      "id": 7,
+      "nome": "Notebook UltraBook 15",
+      "categoria": "Informática",
+      "preco": 3599.9,
+      "vendidos": 139,
+      "estoque": 8,
+      "vendasMensais": {
+        "Janeiro": 7,
+        "Fevereiro": 8,
+        "Março": 8,
+        "Abril": 9,
+        "Maio": 10,
+        "Junho": 10,
+        "Julho": 11,
+        "Agosto": 14,
+        "Setembro": 14,
+        "Outubro": 13,
+        "Novembro": 16,
+        "Dezembro": 19
+      }
+    },
+    {
+      "id": 8,
+      "nome": "Controle Gamer Wireless X",
+      "categoria": "Games",
+      "preco": 299.9,
+      "vendidos": 128,
+      "estoque": 22,
+      "vendasMensais": {
+        "Janeiro": 7,
+        "Fevereiro": 7,
+        "Março": 9,
+        "Abril": 7,
+        "Maio": 9,
+        "Junho": 9,
+        "Julho": 11,
+        "Agosto": 12,
+        "Setembro": 12,
+        "Outubro": 14,
+        "Novembro": 14,
+        "Dezembro": 17
+      }
+    },
+    {
+      "id": 9,
+      "nome": "Smart TV 50 4K Vision",
+      "categoria": "Eletrônicos",
+      "preco": 2899.9,
+      "vendidos": 117,
+      "estoque": 6,
+      "vendasMensais": {
+        "Janeiro": 6,
+        "Fevereiro": 7,
+        "Março": 7,
+        "Abril": 7,
+        "Maio": 8,
+        "Junho": 9,
+        "Julho": 10,
+        "Agosto": 10,
+        "Setembro": 12,
+        "Outubro": 12,
+        "Novembro": 13,
+        "Dezembro": 16
+      }
+    },
+    {
+      "id": 10,
+      "nome": "Fone Bluetooth AirSound",
+      "categoria": "Acessórios",
+      "preco": 159.9,
+      "vendidos": 112,
+      "estoque": 35,
+      "vendasMensais": {
+        "Janeiro": 5,
+        "Fevereiro": 6,
+        "Março": 8,
+        "Abril": 7,
+        "Maio": 7,
+        "Junho": 9,
+        "Julho": 10,
+        "Agosto": 10,
+        "Setembro": 10,
+        "Outubro": 12,
+        "Novembro": 14,
+        "Dezembro": 14
+      }
+    },
+    {
+      "id": 11,
+      "nome": "Webcam Full HD Stream",
+      "categoria": "Informática",
+      "preco": 219.9,
+      "vendidos": 105,
+      "estoque": 19,
+      "vendasMensais": {
+        "Janeiro": 5,
+        "Fevereiro": 6,
+        "Março": 6,
+        "Abril": 6,
+        "Maio": 7,
+        "Junho": 8,
+        "Julho": 9,
+        "Agosto": 10,
+        "Setembro": 11,
+        "Outubro": 12,
+        "Novembro": 12,
+        "Dezembro": 13
+      }
+    },
+    {
+      "id": 12,
+      "nome": "SSD NVMe 1TB SpeedDrive",
+      "categoria": "Informática",
+      "preco": 429.9,
+      "vendidos": 101,
+      "estoque": 14,
+      "vendasMensais": {
+        "Janeiro": 5,
+        "Fevereiro": 6,
+        "Março": 7,
+        "Abril": 6,
+        "Maio": 8,
+        "Junho": 8,
+        "Julho": 9,
+        "Agosto": 9,
+        "Setembro": 10,
+        "Outubro": 10,
+        "Novembro": 11,
+        "Dezembro": 12
+      }
+    },
+    {
+      "id": 13,
+      "nome": "Smartwatch Fit Pro",
+      "categoria": "Eletrônicos",
+      "preco": 399.9,
+      "vendidos": 98,
+      "estoque": 27,
+      "vendasMensais": {
+        "Janeiro": 5,
+        "Fevereiro": 6,
+        "Março": 6,
+        "Abril": 6,
+        "Maio": 7,
+        "Junho": 8,
+        "Julho": 8,
+        "Agosto": 8,
+        "Setembro": 10,
+        "Outubro": 11,
+        "Novembro": 11,
+        "Dezembro": 12
+      }
+    },
+    {
+      "id": 14,
+      "nome": "Power Bank 20000mAh",
+      "categoria": "Acessórios",
+      "preco": 139.9,
+      "vendidos": 91,
+      "estoque": 41,
+      "vendasMensais": {
+        "Janeiro": 5,
+        "Fevereiro": 5,
+        "Março": 6,
+        "Abril": 5,
+        "Maio": 6,
+        "Junho": 8,
+        "Julho": 7,
+        "Agosto": 9,
+        "Setembro": 9,
+        "Outubro": 9,
+        "Novembro": 11,
+        "Dezembro": 11
+      }
+    },
+    {
+      "id": 15,
+      "nome": "Câmera Wi-Fi Smart Home",
+      "categoria": "Eletrônicos",
+      "preco": 279.9,
+      "vendidos": 86,
+      "estoque": 16,
+      "vendasMensais": {
+        "Janeiro": 4,
+        "Fevereiro": 5,
+        "Março": 5,
+        "Abril": 6,
+        "Maio": 6,
+        "Junho": 7,
+        "Julho": 7,
+        "Agosto": 8,
+        "Setembro": 8,
+        "Outubro": 9,
+        "Novembro": 10,
+        "Dezembro": 11
+      }
+    },
+    {
+      "id": 16,
+      "nome": "Placa de Vídeo RTX 4060",
+      "categoria": "Informática",
+      "preco": 2199.9,
+      "vendidos": 81,
+      "estoque": 5,
+      "vendasMensais": {
+        "Janeiro": 4,
+        "Fevereiro": 5,
+        "Março": 5,
+        "Abril": 4,
+        "Maio": 6,
+        "Junho": 7,
+        "Julho": 7,
+        "Agosto": 7,
+        "Setembro": 8,
+        "Outubro": 9,
+        "Novembro": 9,
+        "Dezembro": 10
+      }
+    },
+    {
+      "id": 17,
+      "nome": "Microfone USB Studio",
+      "categoria": "Acessórios",
+      "preco": 349.9,
+      "vendidos": 78,
+      "estoque": 11,
+      "vendasMensais": {
+        "Janeiro": 4,
+        "Fevereiro": 4,
+        "Março": 5,
+        "Abril": 5,
+        "Maio": 6,
+        "Junho": 6,
+        "Julho": 7,
+        "Agosto": 7,
+        "Setembro": 7,
+        "Outubro": 8,
+        "Novembro": 9,
+        "Dezembro": 10
+      }
+    },
+    {
+      "id": 18,
+      "nome": "Console GameBox X",
+      "categoria": "Games",
+      "preco": 2999.9,
+      "vendidos": 77,
+      "estoque": 4,
+      "vendasMensais": {
+        "Janeiro": 4,
+        "Fevereiro": 4,
+        "Março": 5,
+        "Abril": 4,
+        "Maio": 5,
+        "Junho": 6,
+        "Julho": 7,
+        "Agosto": 7,
+        "Setembro": 8,
+        "Outubro": 8,
+        "Novembro": 9,
+        "Dezembro": 10
+      }
+    },
+    {
+      "id": 19,
+      "nome": "Tablet TabPlus 11",
+      "categoria": "Eletrônicos",
+      "preco": 1499.9,
+      "vendidos": 69,
+      "estoque": 13,
+      "vendasMensais": {
+        "Janeiro": 4,
+        "Fevereiro": 4,
+        "Março": 4,
+        "Abril": 4,
+        "Maio": 5,
+        "Junho": 6,
+        "Julho": 6,
+        "Agosto": 6,
+        "Setembro": 6,
+        "Outubro": 7,
+        "Novembro": 8,
+        "Dezembro": 9
+      }
+    },
+    {
+      "id": 20,
+      "nome": "Carregador Turbo 65W",
+      "categoria": "Acessórios",
+      "preco": 119.9,
+      "vendidos": 66,
+      "estoque": 38,
+      "vendasMensais": {
+        "Janeiro": 3,
+        "Fevereiro": 4,
+        "Março": 4,
+        "Abril": 4,
+        "Maio": 4,
+        "Junho": 5,
+        "Julho": 6,
+        "Agosto": 6,
+        "Setembro": 7,
+        "Outubro": 7,
+        "Novembro": 7,
+        "Dezembro": 9
+      }
+    },
+    {
+      "id": 21,
+      "nome": "Câmera ProVision 4K",
+      "categoria": "Eletrônicos",
+      "preco": 1799.9,
+      "vendidos": 350,
+      "estoque": 10,
+      "vendasMensais": {
+        "Janeiro": 50,
+        "Fevereiro": 20,
+        "Março": 18,
+        "Abril": 17,
+        "Maio": 19,
+        "Junho": 21,
+        "Julho": 22,
+        "Agosto": 24,
+        "Setembro": 26,
+        "Outubro": 29,
+        "Novembro": 32,
+        "Dezembro": 52
+      }
+    },
+    {
+      "id": 22,
+      "nome": "Notebook Gamer Force 16",
+      "categoria": "Informática",
+      "preco": 5299.9,
+      "vendidos": 358,
+      "estoque": 6,
+      "vendasMensais": {
+        "Janeiro": 48,
+        "Fevereiro": 51,
+        "Março": 20,
+        "Abril": 18,
+        "Maio": 20,
+        "Junho": 22,
+        "Julho": 24,
+        "Agosto": 26,
+        "Setembro": 28,
+        "Outubro": 31,
+        "Novembro": 34,
+        "Dezembro": 56
+      }
+    },
+    {
+      "id": 23,
+      "nome": "Console PlayZone X",
+      "categoria": "Games",
+      "preco": 3499.9,
+      "vendidos": 354,
+      "estoque": 5,
+      "vendasMensais": {
+        "Janeiro": 46,
+        "Fevereiro": 49,
+        "Março": 53,
+        "Abril": 21,
+        "Maio": 22,
+        "Junho": 24,
+        "Julho": 25,
+        "Agosto": 27,
+        "Setembro": 29,
+        "Outubro": 32,
+        "Novembro": 35,
+        "Dezembro": 51
+      }
+    },
+    {
+      "id": 24,
+      "nome": "Smartphone Nova X Pro",
+      "categoria": "Celulares",
+      "preco": 2799.9,
+      "vendidos": 356,
+      "estoque": 11,
+      "vendasMensais": {
+        "Janeiro": 44,
+        "Fevereiro": 47,
+        "Março": 50,
+        "Abril": 54,
+        "Maio": 22,
+        "Junho": 24,
+        "Julho": 26,
+        "Agosto": 28,
+        "Setembro": 30,
+        "Outubro": 33,
+        "Novembro": 36,
+        "Dezembro": 42
+      }
+    },
+    {
+      "id": 25,
+      "nome": "Monitor UltraWide 34",
+      "categoria": "Informática",
+      "preco": 2499.9,
+      "vendidos": 354,
+      "estoque": 8,
+      "vendasMensais": {
+        "Janeiro": 42,
+        "Fevereiro": 45,
+        "Março": 48,
+        "Abril": 51,
+        "Maio": 55,
+        "Junho": 23,
+        "Julho": 25,
+        "Agosto": 27,
+        "Setembro": 31,
+        "Outubro": 34,
+        "Novembro": 37,
+        "Dezembro": 36
+      }
+    },
+    {
+      "id": 26,
+      "nome": "Fone Gamer SoundMax 7.1",
+      "categoria": "Games",
+      "preco": 449.9,
+      "vendidos": 350,
+      "estoque": 21,
+      "vendasMensais": {
+        "Janeiro": 15,
+        "Fevereiro": 43,
+        "Março": 46,
+        "Abril": 49,
+        "Maio": 52,
+        "Junho": 56,
+        "Julho": 24,
+        "Agosto": 26,
+        "Setembro": 29,
+        "Outubro": 32,
+        "Novembro": 35,
+        "Dezembro": 43
+      }
+    },
+    {
+      "id": 27,
+      "nome": "Teclado Low Profile RGB",
+      "categoria": "Informática",
+      "preco": 319.9,
+      "vendidos": 349,
+      "estoque": 25,
+      "vendasMensais": {
+        "Janeiro": 14,
+        "Fevereiro": 16,
+        "Março": 44,
+        "Abril": 47,
+        "Maio": 50,
+        "Junho": 53,
+        "Julho": 57,
+        "Agosto": 27,
+        "Setembro": 30,
+        "Outubro": 33,
+        "Novembro": 36,
+        "Dezembro": 42
+      }
+    },
+    {
+      "id": 28,
+      "nome": "Mouse Wireless Precision",
+      "categoria": "Games",
+      "preco": 199.9,
+      "vendidos": 347,
+      "estoque": 34,
+      "vendasMensais": {
+        "Janeiro": 13,
+        "Fevereiro": 15,
+        "Março": 17,
+        "Abril": 43,
+        "Maio": 46,
+        "Junho": 49,
+        "Julho": 52,
+        "Agosto": 56,
+        "Setembro": 28,
+        "Outubro": 31,
+        "Novembro": 34,
+        "Dezembro": 43
+      }
+    },
+    {
+      "id": 29,
+      "nome": "Smart TV 65 OLED Vision",
+      "categoria": "Eletrônicos",
+      "preco": 4899.9,
+      "vendidos": 346,
+      "estoque": 4,
+      "vendasMensais": {
+        "Janeiro": 12,
+        "Fevereiro": 14,
+        "Março": 16,
+        "Abril": 18,
+        "Maio": 41,
+        "Junho": 45,
+        "Julho": 49,
+        "Agosto": 53,
+        "Setembro": 57,
+        "Outubro": 32,
+        "Novembro": 35,
+        "Dezembro": 44
+      }
+    },
+    {
+      "id": 30,
+      "nome": "Tablet Pro Max 12",
+      "categoria": "Eletrônicos",
+      "preco": 2199.9,
+      "vendidos": 345,
+      "estoque": 9,
+      "vendasMensais": {
+        "Janeiro": 11,
+        "Fevereiro": 13,
+        "Março": 15,
+        "Abril": 17,
+        "Maio": 20,
+        "Junho": 43,
+        "Julho": 46,
+        "Agosto": 49,
+        "Setembro": 52,
+        "Outubro": 56,
+        "Novembro": 36,
+        "Dezembro": 47
+      }
+    },
+    {
+      "id": 31,
+      "nome": "Smartphone Ultra Z",
+      "categoria": "Celulares",
+      "preco": 3899.9,
+      "vendidos": 345,
+      "estoque": 7,
+      "vendasMensais": {
+        "Janeiro": 10,
+        "Fevereiro": 12,
+        "Março": 14,
+        "Abril": 16,
+        "Maio": 19,
+        "Junho": 21,
+        "Julho": 41,
+        "Agosto": 44,
+        "Setembro": 48,
+        "Outubro": 52,
+        "Novembro": 56,
+        "Dezembro": 42
+      }
+    },
+    {
+      "id": 32,
+      "nome": "Placa de Vídeo RTX 4070",
+      "categoria": "Informática",
+      "preco": 3999.9,
+      "vendidos": 343,
+      "estoque": 5,
+      "vendasMensais": {
+        "Janeiro": 9,
+        "Fevereiro": 11,
+        "Março": 13,
+        "Abril": 15,
+        "Maio": 18,
+        "Junho": 20,
+        "Julho": 23,
+        "Agosto": 42,
+        "Setembro": 45,
+        "Outubro": 49,
+        "Novembro": 53,
+        "Dezembro": 45
+      }
+    },
+    {
+      "id": 33,
+      "nome": "SSD NVMe 2TB HyperSpeed",
+      "categoria": "Informática",
+      "preco": 799.9,
+      "vendidos": 338,
+      "estoque": 15,
+      "vendasMensais": {
+        "Janeiro": 8,
+        "Fevereiro": 10,
+        "Março": 12,
+        "Abril": 14,
+        "Maio": 17,
+        "Junho": 19,
+        "Julho": 22,
+        "Agosto": 25,
+        "Setembro": 40,
+        "Outubro": 44,
+        "Novembro": 48,
+        "Dezembro": 59
+      }
+    },
+    {
+      "id": 34,
+      "nome": "Microfone Gamer ProCast",
+      "categoria": "Acessórios",
+      "preco": 599.9,
+      "vendidos": 334,
+      "estoque": 12,
+      "vendasMensais": {
+        "Janeiro": 7,
+        "Fevereiro": 9,
+        "Março": 11,
+        "Abril": 13,
+        "Maio": 16,
+        "Junho": 18,
+        "Julho": 21,
+        "Agosto": 24,
+        "Setembro": 27,
+        "Outubro": 39,
+        "Novembro": 44,
+        "Dezembro": 65
+      }
+    },
+    {
+      "id": 35,
+      "nome": "Controle Pro Wireless Elite",
+      "categoria": "Games",
+      "preco": 699.9,
+      "vendidos": 329,
+      "estoque": 13,
+      "vendasMensais": {
+        "Janeiro": 7,
+        "Fevereiro": 9,
+        "Março": 11,
+        "Abril": 13,
+        "Maio": 15,
+        "Junho": 17,
+        "Julho": 20,
+        "Agosto": 23,
+        "Setembro": 26,
+        "Outubro": 38,
+        "Novembro": 43,
+        "Dezembro": 67
+      }
+    },
+    {
+      "id": 36,
+      "nome": "Soundbar Home Cinema",
+      "categoria": "Eletrônicos",
+      "preco": 1299.9,
+      "vendidos": 327,
+      "estoque": 10,
+      "vendasMensais": {
+        "Janeiro": 6,
+        "Fevereiro": 8,
+        "Março": 10,
+        "Abril": 12,
+        "Maio": 14,
+        "Junho": 16,
+        "Julho": 19,
+        "Agosto": 22,
+        "Setembro": 25,
+        "Outubro": 36,
+        "Novembro": 48,
+        "Dezembro": 71
+      }
+    },
+    {
+      "id": 37,
+      "nome": "Webcam 4K Creator",
+      "categoria": "Informática",
+      "preco": 699.9,
+      "vendidos": 319,
+      "estoque": 17,
+      "vendasMensais": {
+        "Janeiro": 6,
+        "Fevereiro": 8,
+        "Março": 10,
+        "Abril": 12,
+        "Maio": 14,
+        "Junho": 16,
+        "Julho": 18,
+        "Agosto": 21,
+        "Setembro": 24,
+        "Outubro": 34,
+        "Novembro": 51,
+        "Dezembro": 75
+      }
+    },
+    {
+      "id": 38,
+      "nome": "Power Bank Ultra 30000mAh",
+      "categoria": "Acessórios",
+      "preco": 249.9,
+      "vendidos": 309,
+      "estoque": 29,
+      "vendasMensais": {
+        "Janeiro": 5,
+        "Fevereiro": 7,
+        "Março": 9,
+        "Abril": 11,
+        "Maio": 13,
+        "Junho": 15,
+        "Julho": 17,
+        "Agosto": 20,
+        "Setembro": 23,
+        "Outubro": 32,
+        "Novembro": 54,
+        "Dezembro": 71
+      }
+    },
+    {
+      "id": 39,
+      "nome": "Smartwatch Ultra Active",
+      "categoria": "Eletrônicos",
+      "preco": 899.9,
+      "vendidos": 306,
+      "estoque": 18,
+      "vendasMensais": {
+        "Janeiro": 5,
+        "Fevereiro": 7,
+        "Março": 9,
+        "Abril": 11,
+        "Maio": 13,
+        "Junho": 15,
+        "Julho": 17,
+        "Agosto": 20,
+        "Setembro": 22,
+        "Outubro": 30,
+        "Novembro": 57,
+        "Dezembro": 70
+      }
+    },
+    {
+      "id": 40,
+      "nome": "Headset Wireless Pro X",
+      "categoria": "Games",
+      "preco": 799.9,
+      "vendidos": 303,
+      "estoque": 14,
+      "vendasMensais": {
+        "Janeiro": 5,
+        "Fevereiro": 7,
+        "Março": 9,
+        "Abril": 11,
+        "Maio": 13,
+        "Junho": 15,
+        "Julho": 17,
+        "Agosto": 20,
+        "Setembro": 22,
+        "Outubro": 28,
+        "Novembro": 59,
+        "Dezembro": 70
+      }
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1001,
+      "cliente": "João Silva",
+      "mes": "Janeiro",
+      "data": "2026-01-28",
+      "total": 417.81,
+      "status": "Enviado",
+      "produtos": 2
+    },
+    {
+      "id": 1002,
+      "cliente": "Maria Santos",
+      "mes": "Janeiro",
+      "data": "2026-01-22",
+      "total": 2309.89,
+      "status": "Processando",
+      "produtos": 3
+    },
+    {
+      "id": 1003,
+      "cliente": "Carlos Oliveira",
+      "mes": "Janeiro",
+      "data": "2026-01-15",
+      "total": 764.91,
+      "status": "Cancelado",
+      "produtos": 1
+    },
+    {
+      "id": 1004,
+      "cliente": "Ana Costa",
+      "mes": "Janeiro",
+      "data": "2026-01-08",
+      "total": 712.22,
+      "status": "Concluído",
+      "produtos": 2
+    },
+    {
+      "id": 1005,
+      "cliente": "Lucas Almeida",
+      "mes": "Fevereiro",
+      "data": "2026-02-26",
+      "total": 3464.9,
+      "status": "Processando",
+      "produtos": 3
+    },
+    {
+      "id": 1006,
+      "cliente": "Fernanda Lima",
+      "mes": "Fevereiro",
+      "data": "2026-02-19",
+      "total": 501.33,
+      "status": "Cancelado",
+      "produtos": 1
+    },
+    {
+      "id": 1007,
+      "cliente": "Rafael Souza",
+      "mes": "Fevereiro",
+      "data": "2026-02-12",
+      "total": 2754.9,
+      "status": "Concluído",
+      "produtos": 2
+    },
+    {
+      "id": 1008,
+      "cliente": "Beatriz Rocha",
+      "mes": "Fevereiro",
+      "data": "2026-02-05",
+      "total": 367.39,
+      "status": "Enviado",
+      "produtos": 3
+    },
+    {
+      "id": 1009,
+      "cliente": "Pedro Martins",
+      "mes": "Março",
+      "data": "2026-03-27",
+      "total": 365.41,
+      "status": "Cancelado",
+      "produtos": 1
+    },
+    {
+      "id": 1010,
+      "cliente": "Juliana Alves",
+      "mes": "Março",
+      "data": "2026-03-20",
+      "total": 4939.81,
+      "status": "Concluído",
+      "produtos": 2
+    },
+    {
+      "id": 1011,
+      "cliente": "Gabriel Ferreira",
+      "mes": "Março",
+      "data": "2026-03-14",
+      "total": 167.9,
+      "status": "Enviado",
+      "produtos": 3
+    },
+    {
+      "id": 1012,
+      "cliente": "Larissa Gomes",
+      "mes": "Março",
+      "data": "2026-03-07",
+      "total": 594.83,
+      "status": "Processando",
+      "produtos": 1
+    },
+    {
+      "id": 1013,
+      "cliente": "Mateus Ribeiro",
+      "mes": "Abril",
+      "data": "2026-04-25",
+      "total": 2089.91,
+      "status": "Concluído",
+      "produtos": 2
+    },
+    {
+      "id": 1014,
+      "cliente": "Camila Mendes",
+      "mes": "Abril",
+      "data": "2026-04-18",
+      "total": 314.89,
+      "status": "Enviado",
+      "produtos": 3
+    },
+    {
+      "id": 1015,
+      "cliente": "Bruno Carvalho",
+      "mes": "Abril",
+      "data": "2026-04-11",
+      "total": 3739.83,
+      "status": "Processando",
+      "produtos": 1
+    },
+    {
+      "id": 1016,
+      "cliente": "Amanda Martins",
+      "mes": "Abril",
+      "data": "2026-04-04",
+      "total": 265.9,
+      "status": "Cancelado",
+      "produtos": 2
+    },
+    {
+      "id": 1017,
+      "cliente": "Diego Nascimento",
+      "mes": "Maio",
+      "data": "2026-05-27",
+      "total": 944.89,
+      "status": "Enviado",
+      "produtos": 3
+    },
+    {
+      "id": 1018,
+      "cliente": "Isabela Castro",
+      "mes": "Maio",
+      "data": "2026-05-20",
+      "total": 1359.83,
+      "status": "Processando",
+      "produtos": 1
+    },
+    {
+      "id": 1019,
+      "cliente": "Thiago Barbosa",
+      "mes": "Maio",
+      "data": "2026-05-13",
+      "total": 123.41,
+      "status": "Cancelado",
+      "produtos": 2
+    },
+    {
+      "id": 1020,
+      "cliente": "Mariana Dias",
+      "mes": "Maio",
+      "data": "2026-05-06",
+      "total": 3464.9,
+      "status": "Concluído",
+      "produtos": 3
+    },
+    {
+      "id": 1021,
+      "cliente": "João Silva",
+      "mes": "Junho",
+      "data": "2026-06-26",
+      "total": 373.83,
+      "status": "Processando",
+      "produtos": 1
+    },
+    {
+      "id": 1022,
+      "cliente": "Maria Santos",
+      "mes": "Junho",
+      "data": "2026-06-19",
+      "total": 2089.91,
+      "status": "Cancelado",
+      "produtos": 2
+    },
+    {
+      "id": 1023,
+      "cliente": "Carlos Oliveira",
+      "mes": "Junho",
+      "data": "2026-06-12",
+      "total": 944.89,
+      "status": "Concluído",
+      "produtos": 3
+    },
+    {
+      "id": 1024,
+      "cliente": "Ana Costa",
+      "mes": "Junho",
+      "data": "2026-06-05",
+      "total": 637.25,
+      "status": "Enviado",
+      "produtos": 1
+    },
+    {
+      "id": 1025,
+      "cliente": "Lucas Almeida",
+      "mes": "Julho",
+      "data": "2026-07-28",
+      "total": 3134.9,
+      "status": "Cancelado",
+      "produtos": 2
+    },
+    {
+      "id": 1026,
+      "cliente": "Fernanda Lima",
+      "mes": "Julho",
+      "data": "2026-07-21",
+      "total": 619.29,
+      "status": "Concluído",
+      "produtos": 3
+    },
+    {
+      "id": 1027,
+      "cliente": "Rafael Souza",
+      "mes": "Julho",
+      "data": "2026-07-14",
+      "total": 2464.91,
+      "status": "Enviado",
+      "produtos": 1
+    },
+    {
+      "id": 1028,
+      "cliente": "Beatriz Rocha",
+      "mes": "Julho",
+      "data": "2026-07-07",
+      "total": 332.4,
+      "status": "Processando",
+      "produtos": 2
+    },
+    {
+      "id": 1029,
+      "cliente": "Pedro Martins",
+      "mes": "Agosto",
+      "data": "2026-08-27",
+      "total": 451.39,
+      "status": "Concluído",
+      "produtos": 3
+    },
+    {
+      "id": 1030,
+      "cliente": "Juliana Alves",
+      "mes": "Agosto",
+      "data": "2026-08-20",
+      "total": 4419.83,
+      "status": "Enviado",
+      "produtos": 1
+    },
+    {
+      "id": 1031,
+      "cliente": "Gabriel Ferreira",
+      "mes": "Agosto",
+      "data": "2026-08-13",
+      "total": 151.91,
+      "status": "Processando",
+      "produtos": 2
+    },
+    {
+      "id": 1032,
+      "cliente": "Larissa Gomes",
+      "mes": "Agosto",
+      "data": "2026-08-06",
+      "total": 734.79,
+      "status": "Cancelado",
+      "produtos": 3
+    },
+    {
+      "id": 1033,
+      "cliente": "Mateus Ribeiro",
+      "mes": "Setembro",
+      "data": "2026-09-18",
+      "total": 1869.91,
+      "status": "Enviado",
+      "produtos": 1
+    },
+    {
+      "id": 1034,
+      "cliente": "Camila Mendes",
+      "mes": "Setembro",
+      "data": "2026-09-15",
+      "total": 284.9,
+      "status": "Processando",
+      "produtos": 2
+    },
+    {
+      "id": 1035,
+      "cliente": "Bruno Carvalho",
+      "mes": "Setembro",
+      "data": "2026-09-12",
+      "total": 4619.79,
+      "status": "Cancelado",
+      "produtos": 3
+    },
+    {
+      "id": 1036,
+      "cliente": "Amanda Martins",
+      "mes": "Setembro",
+      "data": "2026-09-09",
+      "total": 237.91,
+      "status": "Concluído",
+      "produtos": 1
+    },
+    {
+      "id": 1037,
+      "cliente": "Diego Nascimento",
+      "mes": "Outubro",
+      "data": "2026-10-27",
+      "total": 854.9,
+      "status": "Processando",
+      "produtos": 2
+    },
+    {
+      "id": 1038,
+      "cliente": "Isabela Castro",
+      "mes": "Outubro",
+      "data": "2026-10-20",
+      "total": 1679.79,
+      "status": "Cancelado",
+      "produtos": 3
+    },
+    {
+      "id": 1039,
+      "cliente": "Thiago Barbosa",
+      "mes": "Outubro",
+      "data": "2026-10-13",
+      "total": 110.42,
+      "status": "Concluído",
+      "produtos": 1
+    },
+    {
+      "id": 1040,
+      "cliente": "Mariana Dias",
+      "mes": "Outubro",
+      "data": "2026-10-06",
+      "total": 3134.9,
+      "status": "Enviado",
+      "produtos": 2
+    },
+    {
+      "id": 1041,
+      "cliente": "João Silva",
+      "mes": "Novembro",
+      "data": "2026-11-25",
+      "total": 461.79,
+      "status": "Cancelado",
+      "produtos": 3
+    },
+    {
+      "id": 1042,
+      "cliente": "Maria Santos",
+      "mes": "Novembro",
+      "data": "2026-11-18",
+      "total": 1869.91,
+      "status": "Concluído",
+      "produtos": 1
+    },
+    {
+      "id": 1043,
+      "cliente": "Carlos Oliveira",
+      "mes": "Novembro",
+      "data": "2026-11-11",
+      "total": 854.9,
+      "status": "Enviado",
+      "produtos": 2
+    },
+    {
+      "id": 1044,
+      "cliente": "Ana Costa",
+      "mes": "Novembro",
+      "data": "2026-11-04",
+      "total": 787.19,
+      "status": "Processando",
+      "produtos": 3
+    },
+    {
+      "id": 1045,
+      "cliente": "Lucas Almeida",
+      "mes": "Dezembro",
+      "data": "2026-12-27",
+      "total": 2804.91,
+      "status": "Concluído",
+      "produtos": 1
+    },
+    {
+      "id": 1046,
+      "cliente": "Fernanda Lima",
+      "mes": "Dezembro",
+      "data": "2026-12-20",
+      "total": 560.31,
+      "status": "Enviado",
+      "produtos": 2
+    },
+    {
+      "id": 1047,
+      "cliente": "Rafael Souza",
+      "mes": "Dezembro",
+      "data": "2026-12-13",
+      "total": 3044.9,
+      "status": "Processando",
+      "produtos": 3
+    },
+    {
+      "id": 1048,
+      "cliente": "Beatriz Rocha",
+      "mes": "Dezembro",
+      "data": "2026-12-06",
+      "total": 297.41,
+      "status": "Cancelado",
+      "produtos": 1
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "email": "joao@email.com",
+      "pedidos": 14,
+      "totalGasto": 5840.5
+    },
+    {
+      "id": 2,
+      "nome": "Maria Santos",
+      "email": "maria@email.com",
+      "pedidos": 11,
+      "totalGasto": 7290.8
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Oliveira",
+      "email": "carlos@email.com",
+      "pedidos": 9,
+      "totalGasto": 4190.4
+    },
+    {
+      "id": 4,
+      "nome": "Ana Costa",
+      "email": "ana@email.com",
+      "pedidos": 17,
+      "totalGasto": 8930.2
+    },
+    {
+      "id": 5,
+      "nome": "Lucas Almeida",
+      "email": "lucas@email.com",
+      "pedidos": 7,
+      "totalGasto": 3840.9
+    },
+    {
+      "id": 6,
+      "nome": "Fernanda Lima",
+      "email": "fernanda@email.com",
+      "pedidos": 13,
+      "totalGasto": 6490.7
+    },
+    {
+      "id": 7,
+      "nome": "Rafael Souza",
+      "email": "rafael@email.com",
+      "pedidos": 6,
+      "totalGasto": 3290.3
+    },
+    {
+      "id": 8,
+      "nome": "Beatriz Rocha",
+      "email": "beatriz@email.com",
+      "pedidos": 10,
+      "totalGasto": 5180.6
+    },
+    {
+      "id": 9,
+      "nome": "Pedro Martins",
+      "email": "pedro@email.com",
+      "pedidos": 8,
+      "totalGasto": 2940.2
+    },
+    {
+      "id": 10,
+      "nome": "Juliana Alves",
+      "email": "juliana@email.com",
+      "pedidos": 19,
+      "totalGasto": 10240.9
+    },
+    {
+      "id": 11,
+      "nome": "Gabriel Ferreira",
+      "email": "gabriel@email.com",
+      "pedidos": 5,
+      "totalGasto": 1840.7
+    },
+    {
+      "id": 12,
+      "nome": "Larissa Gomes",
+      "email": "larissa@email.com",
+      "pedidos": 12,
+      "totalGasto": 5680.3
+    },
+    {
+      "id": 13,
+      "nome": "Mateus Ribeiro",
+      "email": "mateus@email.com",
+      "pedidos": 15,
+      "totalGasto": 7490.5
+    },
+    {
+      "id": 14,
+      "nome": "Camila Mendes",
+      "email": "camila@email.com",
+      "pedidos": 9,
+      "totalGasto": 3680.4
+    },
+    {
+      "id": 15,
+      "nome": "Bruno Carvalho",
+      "email": "bruno@email.com",
+      "pedidos": 16,
+      "totalGasto": 9180.6
+    },
+    {
+      "id": 16,
+      "nome": "Amanda Martins",
+      "email": "amanda@email.com",
+      "pedidos": 8,
+      "totalGasto": 3190.8
+    },
+    {
+      "id": 17,
+      "nome": "Diego Nascimento",
+      "email": "diego@email.com",
+      "pedidos": 6,
+      "totalGasto": 2780.9
+    },
+    {
+      "id": 18,
+      "nome": "Isabela Castro",
+      "email": "isabela@email.com",
+      "pedidos": 13,
+      "totalGasto": 6380.2
+    },
+    {
+      "id": 19,
+      "nome": "Thiago Barbosa",
+      "email": "thiago@email.com",
+      "pedidos": 7,
+      "totalGasto": 2490.5
+    },
+    {
+      "id": 20,
+      "nome": "Mariana Dias",
+      "email": "mariana@email.com",
+      "pedidos": 18,
+      "totalGasto": 9780.4
+    }
+  ],
+  "estoque": [
+    {
+      "id": 1,
+      "produto": "Headset Gamer HyperSound Pro",
+      "categoria": "Games",
+      "quantidade": 18,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 2,
+      "produto": "Teclado Mecânico RGB Thunder K87",
+      "categoria": "Informática",
+      "quantidade": 24,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 3,
+      "produto": "Mouse Gamer Phantom 8000 DPI",
+      "categoria": "Games",
+      "quantidade": 31,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 4,
+      "produto": "Monitor UltraView 24 Full HD",
+      "categoria": "Informática",
+      "quantidade": 12,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 5,
+      "produto": "Smartphone Galaxy A56",
+      "categoria": "Celulares",
+      "quantidade": 9,
+      "minimo": 10,
+      "status": "Baixo"
+    },
+    {
+      "id": 6,
+      "produto": "Smartphone Pixel Pro 9",
+      "categoria": "Celulares",
+      "quantidade": 7,
+      "minimo": 10,
+      "status": "Baixo"
+    },
+    {
+      "id": 7,
+      "produto": "Notebook UltraBook 15",
+      "categoria": "Informática",
+      "quantidade": 8,
+      "minimo": 10,
+      "status": "Baixo"
+    },
+    {
+      "id": 8,
+      "produto": "Controle Gamer Wireless X",
+      "categoria": "Games",
+      "quantidade": 22,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 9,
+      "produto": "Smart TV 50 4K Vision",
+      "categoria": "Eletrônicos",
+      "quantidade": 6,
+      "minimo": 10,
+      "status": "Baixo"
+    },
+    {
+      "id": 10,
+      "produto": "Fone Bluetooth AirSound",
+      "categoria": "Acessórios",
+      "quantidade": 35,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 11,
+      "produto": "Webcam Full HD Stream",
+      "categoria": "Informática",
+      "quantidade": 19,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 12,
+      "produto": "SSD NVMe 1TB SpeedDrive",
+      "categoria": "Informática",
+      "quantidade": 14,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 13,
+      "produto": "Smartwatch Fit Pro",
+      "categoria": "Eletrônicos",
+      "quantidade": 27,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 14,
+      "produto": "Power Bank 20000mAh",
+      "categoria": "Acessórios",
+      "quantidade": 41,
+      "minimo": 10,
+      "status": "Normal"
+    },
+    {
+      "id": 15,
+      "produto": "Câmera Wi-Fi Smart Home",
+      "categoria": "Eletrônicos",
+      "quantidade": 16,
+      "minimo": 10,
+      "status": "Normal"
+    }
+  ],
+  "indicadores": [
+    {
+      "id": 1,
+      "mes": "Janeiro",
+      "clientes": 86,
+      "pedidos": 102
+    },
+    {
+      "id": 2,
+      "mes": "Fevereiro",
+      "clientes": 94,
+      "pedidos": 115
+    },
+    {
+      "id": 3,
+      "mes": "Março",
+      "clientes": 101,
+      "pedidos": 128
+    },
+    {
+      "id": 4,
+      "mes": "Abril",
+      "clientes": 97,
+      "pedidos": 121
+    },
+    {
+      "id": 5,
+      "mes": "Maio",
+      "clientes": 113,
+      "pedidos": 143
+    },
+    {
+      "id": 6,
+      "mes": "Junho",
+      "clientes": 124,
+      "pedidos": 158
+    },
+    {
+      "id": 7,
+      "mes": "Julho",
+      "clientes": 139,
+      "pedidos": 177
+    },
+    {
+      "id": 8,
+      "mes": "Agosto",
+      "clientes": 151,
+      "pedidos": 194
+    },
+    {
+      "id": 9,
+      "mes": "Setembro",
+      "clientes": 164,
+      "pedidos": 211
+    },
+    {
+      "id": 10,
+      "mes": "Outubro",
+      "clientes": 178,
+      "pedidos": 228
+    },
+    {
+      "id": 11,
+      "mes": "Novembro",
+      "clientes": 196,
+      "pedidos": 251
+    },
+    {
+      "id": 12,
+      "mes": "Dezembro",
+      "clientes": 218,
+      "pedidos": 279
+    }
+  ]
+}

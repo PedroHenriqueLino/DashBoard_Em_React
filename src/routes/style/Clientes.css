@@ -1,0 +1,230 @@
+.clientes-content {
+    padding: 20px;
+}
+
+.clientes-title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.clientes-search {
+    position: relative;
+    width: 30%;
+    z-index: 9;
+}
+
+.clientes-search input {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    background: #13262d;
+    color: white;
+
+    animation: neonPulse 2s ease-in-out infinite;
+    animation: neonPulse 2s ease-in-out infinite;
+
+    transition:
+        border-color 1s ease,
+        box-shadow 1s ease,
+        background 1s ease,
+        transform 0.3s ease;
+}
+
+.clientes-search input:hover {
+    border-color: #03e0fa;
+    background: #1a1e26;
+    box-shadow:
+        0 0 10px rgba(3, 224, 250, 0.4),
+        0 0 25px rgba(3, 224, 250, 0.2),
+        inset 0 0 12px rgba(3, 224, 250, 0.08);
+
+    transform: scale(1.01);
+}
+
+.clientes-search input:focus {
+    border-color: #03e0fa;
+
+    background: #1a1e26;
+
+    box-shadow:
+        0 0 10px rgba(3, 224, 250, 0.4),
+        0 0 25px rgba(3, 224, 250, 0.2),
+        inset 0 0 12px rgba(3, 224, 250, 0.08);
+
+    transform: scale(1.01);
+
+    outline: none;
+}
+
+
+.clientes-search svg {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    z-index: 10;
+    pointer-events: none;
+}
+
+/*clientes-table*/
+
+
+.clientes-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.clientes-search {
+    width: 25%;
+}
+
+.clientes-table th,
+.clientes-table td {
+    padding: 12px 10px;
+    text-align: left;
+}
+
+.clientes-table-row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.clientes-table-row:last-child {
+    border-bottom: none;
+}
+
+.clientes-table-header {
+    background: #282e3382;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 440px) {
+
+    /*cliente-header*/
+    .clientes-content {
+        padding: 20px;
+    }
+
+    .clientes-title {
+        font-size: .8rem;
+        margin-top: -20px;
+    }
+
+    .clientes-search {
+        width: 60%;
+    }
+
+    /*cliente-header a cima*/
+
+    /*clientes-table*/
+    .clientes-table {
+        width: 100%;
+        table-layout: fixed;
+        font-size: 13px;
+    }
+
+    .clientes-table th,
+    .clientes-table td {
+        padding: 10px 5px;
+        text-align: left;
+        overflow-wrap: anywhere;
+    }
+
+    /* Largura de cada coluna */
+
+    .clientes-table th:nth-child(1),
+    .clientes-table td:nth-child(1) {
+        width: 25%;
+    }
+
+    .clientes-table th:nth-child(2),
+    .clientes-table td:nth-child(2) {
+        width: 35%;
+    }
+
+    .clientes-table th:nth-child(3),
+    .clientes-table td:nth-child(3) {
+        width: 15%;
+    }
+
+    .clientes-table th:nth-child(4),
+    .clientes-table td:nth-child(4) {
+        width: 25%;
+    }
+
+    .clientes-table-header {
+        font-size: 12px;
+    }
+
+    /*clientes-table a cima*/
+
+}
+
+/*clientes-table a cima*/
+
+/* =========================
+   TEMA CLARO
+========================= */
+
+.clientes-content.light-theme {
+    color: #1e293b;
+    background: #f8fafc;
+}
+
+/* Título */
+
+.clientes-content.light-theme .clientes-title h1 {
+    color: #0f172a;
+}
+
+
+/* Busca */
+
+.clientes-content.light-theme .clientes-search input {
+    background: #ffffff;
+    color: #1e293b;
+    border: 1px solid #cbd5e1;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.05);
+    animation: none;
+}
+
+.clientes-content.light-theme .clientes-search input::placeholder {
+    color: #94a3b8;
+}
+
+.clientes-content.light-theme .clientes-search svg {
+    color: #64748b;
+}
+
+
+/* Tabela */
+
+.clientes-content.light-theme .clientes-table {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+}
+
+.clientes-content.light-theme .clientes-table-header {
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.clientes-content.light-theme .clientes-table-row {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.clientes-content.light-theme .clientes-table th {
+    color: #334155;
+}
+
+.clientes-content.light-theme .clientes-table td {
+    color: #475569;
+}

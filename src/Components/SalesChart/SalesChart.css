@@ -1,0 +1,93 @@
+.saleschart-content {
+    width: 100%;
+    height: auto;
+}
+
+.saleschart-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saleschart-title h2 {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.saleschart-title .time {
+    background: #1f242e;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+@media (max-width: 440px) {
+    .saleschart-content {
+        width: 100%;
+    }
+
+    .saleschart-title {
+        gap: 10px;
+    }
+
+    .saleschart-title h2 {
+        font-size: 1rem;
+    }
+
+    .saleschart-title .time {
+        padding: 10px 12px;
+        font-size: 13px;
+        border-radius: 10px;
+    }
+}
+
+/* =========================
+   TEMA CLARO
+========================= */
+
+/* =========================
+   TRANSIÇÕES
+========================= */
+
+.saleschart-content {
+    transition:
+        color 0.4s ease,
+        background 0.4s ease;
+}
+
+.saleschart-title h2,
+.saleschart-title .time {
+    transition:
+        color 0.4s ease,
+        background 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+/* =========================
+   TEMA CLARO
+========================= */
+
+.saleschart-content.light-theme {
+    color: #1e293b;
+}
+
+.saleschart-content.light-theme .saleschart-title h2 {
+    color: #0f172a;
+}
+
+.saleschart-content.light-theme .saleschart-title .time {
+    background: #f1f5f9;
+    color: #475569;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+}
+
+
+.time.light-theme {
+    background: #f1f5f9;
+    color: #475569;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+}
